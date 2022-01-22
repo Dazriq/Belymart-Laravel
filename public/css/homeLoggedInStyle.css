@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color:  #ffb000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.header {
+  position: sticky;
+  height: auto;
+  width: auto;
+  display:inline-block
+}
+
+.header *{
+  position:relative;
+}
+
+.logoBelyMart {
+  top: 10px;
+  height: 63.63;
+  width: 272.16px;
+  left: 77px;
+}
+
+.logoBelyMart:hover {
+  opacity: 80%;
+}
+
+.logoBelyMart:active {
+  transform: rotateZ(5deg);
+}
+
+.searchBox {
+  bottom: 18px;
+  left: 140px;
+  width: 600px;
+  height: 40px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  font-size: 18px;
+  outline: none;
+}
+
+.cart-btn {
+  height: 45px;
+  width: 45px;
+  left: 200px;
+}
+.cart-btn:active, .profile-pic:active {
+  transform: rotateZ(10deg);
+}
+
+.logout-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  bottom: 15px;
+  left: 230px;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 25px;
+}
+
+.logout-btn:hover {
+  cursor: pointer;
+}
+.logout-btn:active {
+  transform: translateY(2px);
+}
+
+.main-content {
+  background-color: #ffb000;
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  top: 80px;
+  left: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 13px;
+  align-items: center;
+}
+
+.main-content div {
+  background-color: #ffffff;
+  height: 220px;
+  width: auto;
+
+}
+
+.main-content div:hover {
+  opacity: 65%;
+}
+
+.main-content div:active {
+  transform: translateY(5px);
+}
+
+.main-content h1 {
+  position: relative;
+  top: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: Arial;
+}
+
+.main-content img {
+  position: relative;
+  left: 90px;
+  top: 30px;
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+}

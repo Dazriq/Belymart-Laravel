@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color:  #ffffff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  height: 200vh;
+  position: absolute;
+}
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  height: 80px;
+  width: 98.7vw;
+  background-color: #ffb000;
+  display:inline-block;
+  z-index: 2  ;
+}
+
+.header *{
+  position:relative;
+  background-color: #ffb000;
+}
+
+.logoBelyMart {
+  top: 10px;
+  height: 63.63;
+  width: 272.16px;
+  left: 77px;
+}
+
+.logoBelyMart:hover {
+  opacity: 80%;
+}
+
+.logoBelyMart:active {
+  transform: rotateZ(5deg);
+}
+
+.searchBox {
+  bottom: 18px;
+  left: 140px;
+  width: 600px;
+  height: 40px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  font-size: 18px;
+  outline: none;
+}
+
+.logout-btn {
+  display: inline-block;
+  bottom: 15px;
+  left: 280px;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 25px;
+}
+
+.logout-btn:hover {
+  cursor: pointer;
+}
+.logout-btn:active {
+  transform: translateY(2px);
+}
+
+.main-content {
+  height: auto;
+  width: 1200px;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  display: grid;
+  padding: 10px;
+}
+
+.columnTitle {
+  width: 1200px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 13px;
+  align-items: center;
+}
+
+.columnTitle * {
+  display: inline-block;
+  height: 50px;
+}
+
+.columnTitle h1 {
+  position:relative;
+  top: 20px;
+}
+
+.column {
+  width: 1200px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 13px;
+  align-items: center;
+}
+
+.column * {
+  display: inline-block;
+  height: 250px;
+}
+
+.column h1 {
+  position:relative;
+  top: 120px;
+}
+
+.main-content h1 {
+  font-size: 20px;
+  font-weight: lighter; 
+}
+
+.productImage {
+  height: 150px;
+  object-fit: fill;
+  position: relative;
+}
+
+.clear-btn {
+  position: relative;
+  height: 50px;
+  top: 7px;
+  background-color: #ffb000;
+  color: black;
+  padding: 15px 32px;
+  width: 150px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;  
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.clear-btn:active {
+    transform: translateY(5px);
+}
+
+.checkOut {
+  height: auto;
+  width: 1200px;
+  position: relative;
+  top: 50px;
+  left: 80px;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr ;
+}
+
+.checkOut-btn {
+  position: relative;
+  bottom: 10px;
+  height: 50px;
+  background-color: #ffb000;
+  color: black;
+  padding: 15px 32px;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;  
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.checkOut-btn:active {
+    transform: translateY(5px);
+}

@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color:  #ffffff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+}
+
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.header {
+  position: sticky;
+  height: 80px;
+  width: 100vw;
+  background-color: #ffb000;
+  display:inline-block;
+}
+
+.header *{
+  position:relative;
+  background-color: #ffb000;
+}
+
+.logoBelyMart {
+  top: 10px;
+  height: 63.63;
+  width: 272.16px;
+  left: 77px;
+}
+
+.logoBelyMart:hover {
+  opacity: 90%;
+}
+
+.logoBelyMart:active {
+  transform: rotateZ(5deg);
+}
+
+.searchBox {
+  bottom: 18px;
+  left: 140px;
+  width: 600px;
+  height: 40px;
+  background-color: #ffffff;
+  padding-left: 20px;
+  font-size: 18px;
+  outline: none;
+}
+
+.cart-btn {
+  height: 45px;
+  width: 45px;
+  left: 230px;
+}
+.cart-btn:active, .profile-pic:active {
+  transform: rotateZ(10deg);
+}
+
+.logout-btn {
+  display: inline-block;
+  bottom: 15px;
+  left: 250px;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 25px;
+}
+
+.logout-btn:hover {
+  cursor: pointer;
+}
+
+.logout-btn:active {
+  transform: translateY(2px);
+}
+
+.main-content {
+  height: auto;
+  width: 1200px;
+  position: relative;
+  top: 80px;
+  left: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 13px;
+  align-items: center;
+  padding: 10px;
+}
+
+.main-content div {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  height: 250px;
+  width: auto;
+  
+}
+
+.main-content div:hover {
+  opacity: 65%;
+}
+
+.main-content div:active {
+  transform: translateY(5px);
+}
+
+.productName, .productPrice{
+  position: relative;
+  text-align: center;
+  background-color: #ffb000;
+  font-family: Arial;
+}
+
+.productPrice {
+    top: 20px;
+    font-weight: 100;
+    
+}
+  
+  .productPrice {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: Arial;
+  }
+  
+  
+  .main-content img {
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+    top: 30px;
+    max-height: 100px;
+    max-width: 100px;
+    background-color: #ffffff;
+  }

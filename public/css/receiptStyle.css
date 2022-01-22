@@ -1,0 +1,95 @@
+body{margin-top:20px;
+  background:#FFB000
+  }
+  
+  .invoice {
+      padding: 30px;
+  }
+  
+  .invoice h2 {
+      margin-top: 0px;
+      line-height: 0.8em;
+  }
+  
+  .invoice .small {
+      font-weight: 300;
+  }
+  
+  .invoice hr {
+      margin-top: 10px;
+      border-color: #ddd;
+  }
+  
+  .invoice .table tr.line {
+      border-bottom: 1px solid #ccc;
+  }
+  
+  .invoice .table td {
+      border: none;
+  }
+  
+  .invoice .identity {
+      margin-top: 10px;
+      font-size: 1.1em;
+      font-weight: 300;
+  }
+  
+  .invoice .identity strong {
+      font-weight: 600;
+  }
+  
+  
+  .grid {
+      position: fixed;
+      width: 80%;
+      height: 80%;
+      background: #fff;
+      color: #666666;
+      border-radius: 2px;
+      margin-bottom: 25px;
+      box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+      margin-left: 100px;
+  }
+
+  .pay-btn {
+    position: relative;
+    top: 475px;
+    left: 910px;
+    height: 50px;
+    background-color: #5cb85c;
+    color: #ffffff;
+    padding: 15px 32px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;  
+    border-radius: 10px;
+    outline: none;
+    border: none;
+  }
+  .pay-btn:active {
+      transform: translateY(5px);
+  }
+
+  .cancel-btn {
+    position: relative;
+    top: 475px;
+    left: 900px;
+    height: 50px;
+    background-color: #d9534f;
+    color: #ffffff;
+    padding: 15px 32px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;  
+    border-radius: 10px;
+    outline: none;
+    border: none;
+  }
+  .cancel-btn:active {
+      transform: translateY(5px);
+  }
+
+
+  
