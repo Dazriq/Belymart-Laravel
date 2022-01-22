@@ -31,7 +31,6 @@ Route::get('/productView/{productId}', 'App\Http\Controllers\BelyMartController@
 Route::get('/cart', 'App\Http\Controllers\BelyMartController@cart');
 Route::get('/removeFromCart/{cartId}', 'App\Http\Controllers\BelyMartController@removeFromCart');
 Route::get('/pay', 'App\Http\Controllers\BelyMartController@pay');
-Route::get('/cancelPay', 'App\Http\Controllers\BelyMartController@cancelPay');
 Route::get('/searchResult', 'App\Http\Controllers\BelyMartController@searchResult');
 
 Route::post('/searchProducts', 'App\Http\Controllers\BelyMartController@searchProducts');
