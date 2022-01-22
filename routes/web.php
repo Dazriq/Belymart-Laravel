@@ -34,7 +34,6 @@ Route::get('/pay', 'App\Http\Controllers\BelyMartController@pay');
 Route::get('/cancelPay', 'App\Http\Controllers\BelyMartController@cancelPay');
 Route::get('/searchResult', 'App\Http\Controllers\BelyMartController@searchResult');
 
-Route::post('/addToCart', 'App\Http\Controllers\BelyMartController@addToCart');
 Route::post('/searchProducts', 'App\Http\Controllers\BelyMartController@searchProducts');
 Route::post('/authenticate', 'App\Http\Controllers\BelyMartController@authenticate');
 Route::post('/createaccount', 'App\Http\Controllers\BelyMartController@createAccount');
