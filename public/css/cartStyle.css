@@ -32,14 +32,14 @@ img {
   top: 0px;
   height: 80px;
   width: 98.7vw;
-  background-color: #ffb000;
+  background-color: #FF94E0;
   display:inline-block;
   z-index: 2  ;
 }
 
 .header *{
   position:relative;
-  background-color: #ffb000;
+  background-color: #FF94E0;
 }
 
 .logoBelyMart {
