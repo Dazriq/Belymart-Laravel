@@ -17,10 +17,10 @@
 
 # Preview 
 <div>
- <img width="150" alt="login" src="screenshots/login.png">
- <img width="150" alt="home" src="screenshots/homepage.png">
- <img width="150" alt="item" src="screenshots/item.png">
- <img width="150" alt="search" src="screenshots/search.png">
- <img width="150" alt="viewItem" src="screenshots/viewItem.png">
-  <img width="150" alt="learn" src="screenshots/receipt.png">
+ <img width="300" alt="login" src="screenshots/login.png">
+ <img width="300" alt="home" src="screenshots/homepage.png">
+ <img width="300" alt="item" src="screenshots/item.png">
+ <img width="300" alt="search" src="screenshots/search.png">
+ <img width="300" alt="viewItem" src="screenshots/viewItem.png">
+  <img width="300" alt="learn" src="screenshots/receipt.png">
 </div>
