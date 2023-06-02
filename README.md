@@ -2,7 +2,8 @@
 <div align="center">
  <h1 align="center">BelyMart
 </h1>
-  <h3 align="center">An e-commerce application ahtat allows user to buy and sell products online. This project was created using Laravel with HTML/CSS/JS in the front end, PHP for the backEnd and MySql for database</h3>
+  <h3 align="center">An e-commerce application that allows user to buy and sell products online. This project was created using Laravel with HTML/CSS/JS in the front end, PHP for the backEnd and MySql for database</h3>
+      <h2 align="center">This project was created by Dazriq Iqramie</h2>
 </div>
 
 # Built With
