@@ -3,6 +3,7 @@
  <h1 align="center">BelyMart
 </h1>
   <h3 align="center">An e-commerce application ahtat allows user to buy and sell products online. This project was created using Laravel with HTML/CSS/JS in the front end, PHP for the backEnd and MySql for database</h3>
+      <h3 align="center">This project was created by Dazriq Iqramie</h3>
 </div>
 
 # Built With
